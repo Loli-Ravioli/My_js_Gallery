@@ -66,20 +66,18 @@ class Masonry{
 				top
 			};
 		});
-		console.log(this.containerNode.style)
+		
 		
 		this.childrenData.forEach((child)=>{
 			child.childNode.style.top = `${child.top}px`;
 			child.childNode.style.left = `${child.left}px`;
 			child.childNode.style.width = `${child.currentWidth}px`;
 			child.childNode.style.height = `${child.currentheight}px`;
-			console.log(child.currentheight)
-
+			
 		});	
 				 
 		
-		//this.containerNode.className+=MasonryAtciveClassName;
-		//console.log(this.containerNode.style.heigth)
+		this.containerNode.classList.add(MasonryAtciveClassName);		
 	}
 
 } 
