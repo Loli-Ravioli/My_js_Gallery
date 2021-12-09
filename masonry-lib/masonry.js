@@ -78,7 +78,7 @@ class Masonry{
 		});	
 				 
 		
-		this.containerNode.className+=MasonryAtciveClassName;
+		//this.containerNode.className+=MasonryAtciveClassName;
 		//console.log(this.containerNode.style.heigth)
 	}
 

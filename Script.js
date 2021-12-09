@@ -1,4 +1,4 @@
 new Masonry(document.getElementById("masonry"),{
-	gap:3,
-	columns:4
+	gap:10,
+	columns:5
 }); 
