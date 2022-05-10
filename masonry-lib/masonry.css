@@ -25,7 +25,3 @@
  opacity:1;
  transform:scale(1) translate3d(0,0,0)
 }
-.masonryCover:hover {
-	 
-	transform: scale(1.5);
-}
